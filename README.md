@@ -1,6 +1,7 @@
 # 此项目仿照RxAndroid编写，目的是方便在Harmony上可以方便的使用Rxjava相关库。
 
 暂时只支持Rxjava2，关于LICENSE我不太懂，如果有问题，请及时联系我，我会及时修改。
+如果ReactiveX官方开始提供RxHarmony，此项目就会停止维护。
 
 # RxHarmony: Reactive Extensions for Harmony
 
