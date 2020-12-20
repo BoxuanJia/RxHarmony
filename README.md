@@ -1,4 +1,4 @@
-# 此项目仿照RxAndroid编写，目的是方便在Harmony上可以方便的使用Rxjava相关库。
+# 此项目仿照RxAndroid编写，目的是方便在Harmony上，可以保持使用RxAndroid一样的编码习惯。
 
 暂时只支持Rxjava2，关于LICENSE我不太懂，如果有问题，请及时联系我，我会及时修改。
 如果ReactiveX官方开始提供RxHarmony，此项目就会停止维护。
@@ -10,6 +10,16 @@ Harmony specific bindings for [RxJava 2](http://github.com/ReactiveX/RxJava).
 This module adds the minimum classes to RxJava that make writing reactive components in Harmony
 applications easy and hassle-free. More specifically, it provides a `Scheduler` that schedules on
 the main thread or any given `EventRunner`.
+
+# Binaries
+
+```groovy
+implementation 'com.github.boxuanjia:rxharmony:1.0.0'
+// Because RxHarmony releases are few and far between, it is recommended you also
+// explicitly depend on RxJava's latest version for bug fixes and new features.
+// (see https://github.com/ReactiveX/RxJava/releases for latest 2.x.x version)
+implementation 'io.reactivex.rxjava2:rxjava:2.x.x'
+```
 
 # Sample usage
 
@@ -67,11 +77,3 @@ For bugs, feature requests, and discussion please use [GitHub Issues][issues].
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
-
-
- [list]: http://groups.google.com/d/forum/rxjava
- [so]: http://stackoverflow.com/questions/tagged/rx-android
- [twitter]: http://twitter.com/RxJava
- [issues]: https://github.com/ReactiveX/RxAndroid/issues
- [start]: https://github.com/ReactiveX/RxJava/wiki/Getting-Started
