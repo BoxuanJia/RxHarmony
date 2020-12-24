@@ -1,4 +1,4 @@
-# 此项目仿照RxAndroid编写，目的是方便在Harmony上，可以保持使用RxAndroid一样的编码习惯。
+# 此项目仿照[RxAndroid](https://github.com/ReactiveX/RxAndroid)编写，目的是方便在Harmony上，可以保持使用RxAndroid一样的编码习惯。
 
 暂时只支持Rxjava2，关于LICENSE我不太懂，如果有问题，请及时联系我，我会及时修改。
 如果ReactiveX官方开始提供RxHarmony，此项目就会停止维护。
@@ -64,7 +64,7 @@ For bugs, feature requests, and discussion please use [GitHub Issues][issues].
 
 ## LICENSE
 
-    Copyright 2015 The RxAndroid authors
+    Copyright 2020 boxuanjia
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
